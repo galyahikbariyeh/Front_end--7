@@ -1,4 +1,4 @@
-*{
+/* *{
     font-size: 40px;
     background-color: aqua;
 }
@@ -12,14 +12,22 @@ p *{
     font-size: 30px;
 }
 
-pre strong{
-    color: red;
+pre *{
+    background-color: indianred;
+    font-size: 30px;
 }
 
 pre, p{
     background-color: plum;
 
+} */
+.ull{
+    background-color: bisque;
+    font-style: italic;
+    list-style-type: circle;
 }
+
+
 
 /* 
 
@@ -27,7 +35,7 @@ id:one tag ---- #
 class:more than one tag--- .
 
 */
-#head2{
+/* #head2{
     font-style: italic;
     color:white;
 }
@@ -40,7 +48,7 @@ class:more than one tag--- .
 }
 #pragraph{
     color: black;
-}
+} */
 /* 
 
 !important
