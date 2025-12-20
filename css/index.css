@@ -1,0 +1,53 @@
+*{
+    font-size: 40px;
+    background-color: aqua;
+}
+p{
+    background-color: blue;
+    text-align: center;
+    font-size: 20px;
+}
+p *{
+    background-color: yellowgreen;
+    font-size: 30px;
+}
+
+pre strong{
+    color: red;
+}
+
+pre, p{
+    background-color: plum;
+
+}
+
+/* 
+
+id:one tag ---- #
+class:more than one tag--- .
+
+*/
+#head2{
+    font-style: italic;
+    color:white;
+}
+
+.ptag{
+    color: orangered !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: left;
+}
+#pragraph{
+    color: black;
+}
+/* 
+
+!important
+inline 1000pt
+id 100 pt
+class 10 pt
+p 1pt
+
+
+*/
