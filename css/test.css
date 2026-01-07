@@ -1,0 +1,85 @@
+/* #nav{
+    background-color: rgb(88, 178, 178);
+    width: 100%;
+    height: 100px;
+    grid-area: nav;
+}
+#menu{
+    background-color: rgb(157, 157, 205);
+    width: 100%;
+    height: 100%;
+    grid-area: menu;
+}
+#main{
+    background-color: rgb(41, 73, 73);
+    width: 100%;
+    height: 600px;
+    grid-area: main;
+}
+#footer{
+    background-color: rgb(17, 33, 33);
+    width: 100%;
+    height: 150px;
+    grid-area: footer;
+}
+#mainGrid{
+    display: grid;
+    grid-template-areas: 'nav nav nav'
+                          'menu main main'
+                          'menu footer footer';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+#navbar{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   height: 120px;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+gap:100px;
+margin-right: 35%;
+
+}
+
+.im img{
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+color: black;
+padding: 10px;
+border: 1px solid black;
+text-align: center;
+border-radius: 10px;
+}
+*{padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+a:hover{
+    background-color:white;
+}
+.home{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+   
+    background-image: url("https://thumbs.dreamstime.com/b/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.jpg");
+}
+p{
+    text-align: center;
+
+}

@@ -1,0 +1,23 @@
+.navbar{
+    background-color: burlywood !important;
+    height: 120px;
+
+}
+.nav-item a{
+    color: blue !important;
+}
+.bootImage{
+    border-radius: 30%;
+    margin-right: 6px;
+}
+.btn:hover{
+    background-color: bisque;
+    color: blue;
+}
+.container{
+    margin-top: 30px;
+}
+.myclass{
+    background-color: bisque;
+    color: black;
+}

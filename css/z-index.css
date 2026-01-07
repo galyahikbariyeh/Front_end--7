@@ -1,0 +1,31 @@
+.div1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.div2{
+    background-color: green;
+     width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 30px;
+    z-index: 4;
+    top: 30px;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3krIG-0uhDU5iqbv2Xslwf-ZxQ4BYyy-_Yg&s');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

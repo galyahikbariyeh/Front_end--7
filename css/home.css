@@ -1,0 +1,41 @@
+/* .container .main .sales p{
+    background-color: aqua;
+} */
+
+/* class 10 point
+10*3= 30 +1=31point
+
+*/
+
+/* 
+10*2=20 +1=21
+*/
+
+.main .sales p{
+    background-color: rgb(255, 0, 0);
+    color: rgb(234, 192, 136);
+}
+/* 1*10=10 +1= 11 point */
+.sales p{
+    background-color: red;
+}
+
+a{
+    color: blue;
+}
+
+
+a{
+    color:#00ff00 ;
+}
+
+
+/* hex 00-ff
+#000000  black
+rgb
+#ff0000 red
+#00ff00 green
+ */
+ /* rgb
+ 0 black-255--white
+ */

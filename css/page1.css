@@ -1,0 +1,51 @@
+p{
+    display: inline-block;
+background-color: beige;
+height: 100px;
+
+/* letter-spacing: 10px; */
+word-spacing: 30px;
+margin-left: 60px;
+line-height: 40px;
+text-indent: 40px;
+text-align: center;
+}
+
+p:hover{
+    background-color: blue;
+}
+
+/* link: unvisited */
+
+a:link{
+    color: red;
+    font-size: 40px;
+}
+
+a:visited{
+    color: indigo;
+}
+
+a:hover{
+    color: palevioletred;
+}
+
+a:active{
+    color: green;
+}
+
+input:focus{
+    color:red;
+}
+h1{
+    display: inline-block;
+    border: 4px double black;
+    /* 20-- top & bottom
+    40px left & right */
+   padding:20px 40px  30px 50px;
+
+   margin: 50px;
+    background-color: aqua;
+   
+}
+

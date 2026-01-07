@@ -1,0 +1,9 @@
+img{
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+p{
+    position: relative;
+    top: 30px;
+}
